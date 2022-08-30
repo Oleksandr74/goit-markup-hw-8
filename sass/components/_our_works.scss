@@ -1,0 +1,40 @@
+.box {
+    position: relative;
+    margin: 0px;
+
+    overflow: hidden;
+    background-color: var(--basic-color);
+    box-shadow: 0px 2px 1px -1px var(--box-shadow-color1), 0px 1px 1px 0px var(--box-shadow-color2),
+        0px 1px 3px 0px var(--box-shadow-color3);
+}
+
+.box>.photo__title {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 27px 82px;
+
+    background-color: var(--background-color-mission-foto);
+    color: var(--basic-color);
+
+    font-weight: 700;
+
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+        padding-left: 0;
+        margin: 0;
+}
+

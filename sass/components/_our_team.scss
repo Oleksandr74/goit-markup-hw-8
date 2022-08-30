@@ -1,0 +1,38 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+        padding-left: 0;
+        margin: 0;
+}
+
+
+
+.team__item {
+    box-shadow: 0px 1px 3px var(--box-shadow-color3), 0px 1px 1px var(--box-shadow-color2),
+        0px 2px 1px var(--box-shadow-color1);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--basic-color);
+}
+
+.team__text {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.03ex;
+    color: var(--letter-color);
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.team__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03ex;
+    color: var(--brand-color);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+}

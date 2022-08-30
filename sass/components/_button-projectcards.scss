@@ -1,0 +1,55 @@
+.button-projectcards {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0px;
+
+    @extend %list
+}
+
+.button-projectcards__form:not(:last-child) {
+    margin-right: 8px;
+}
+
+.button-projectcards__cards {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.53;
+    border-radius: 4px;
+    font-family: inherit;
+    background: var(--background-team-color);
+    cursor: pointer;
+    border: var(--letter-color);
+    padding-left: 22px;
+    padding-right: 22px;
+    height: 38px;
+    transition-property: color, box-shadow, background-color;
+   @extend %transition;
+    &:hover {
+    background-color: var(--contact-active-color);
+}
+&:focus {
+    border-color: var(--accent-color);
+    outline: none;
+}
+}
+.button-projectcards__current:hover {
+    background: var(--accent-color);
+    color: var(--basic-color);
+    box-shadow: 0px 3px 1px var(--box-shadow-color4), 0px 1px 2px var(--box-shadow-color5),
+        0px 2px 2px var(--box-shadow-color3);
+}
+.button-projectcards__current:focus {
+    background: var(--accent-color);
+    color: var(--basic-color);
+    box-shadow: 0px 3px 1px var(--box-shadow-color4), 0px 1px 2px var(--box-shadow-color5),
+        0px 2px 2px var(--box-shadow-color3);
+    border-color: var(--accent-color);
+}
+.button-projectcards__current:active {
+    background: var(--accent-color);
+    color: var(--basic-color);
+    box-shadow: 0px 3px 1px var(--box-shadow-color4), 0px 1px 2px var(--box-shadow-color5),
+        0px 2px 2px var(--box-shadow-color3);
+}

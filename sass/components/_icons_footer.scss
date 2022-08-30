@@ -1,0 +1,34 @@
+.icons-footer {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+
+.icons-footer__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--basic-color);
+
+   
+}
+
+.icon-footer__link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    background-color: var(--icon-footer-link-background-color);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: background-color;
+    @extend %transition;
+&:hover,
+&:focus {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    background-position: center;
+}
+}

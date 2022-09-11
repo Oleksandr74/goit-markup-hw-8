@@ -28,29 +28,29 @@
 
     @media screen and (min-width: 319px) {
         background-image:
-        var(--bg-hero-gradient),
+       var(--bg-hero-gradient),
         url(../images/icons/icon_mobile/HeRO-480-1-min.jpg);
     }  
     
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .hero {
+            /*.hero {
                 background-image: url(../images/icons/icon_mobile/HeRO-480-2-min.jpg);
-    }}
+    }*/}
 
         @media screen and (min-width: 768px) {
          background-image:
-             var(--bg-hero-gradient),
+             (--bg-hero-gradient),
              url(../images/icons/icon_mobile/HeRO-768-1-min.jpg);
      }
 
         @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-             .hero {
+            /* .hero {
                 background-image: url(../images/icons/icon_mobile/HeRO-768-2-min.jpg);
-    }}
+    }*/}
 
 
     @media screen and (min-width: 1200px) {
@@ -62,7 +62,7 @@
          @media (min-device-pixel-ratio: 2),
          (min-resolution: 192dpi),
          (min-resolution: 2dppx) {
-             .hero {
+           /*  .hero {
                 background-image: url(../images/icons/icon_mobile/HeRO-1600-2-min.jpg);
-     }}}
+     }*/}}
         

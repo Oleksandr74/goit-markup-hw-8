@@ -39,8 +39,7 @@
                 background-image: url(../images/icons/icon_mobile/hero-480-2-min.jpg);
     }}
 
-
-     @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) {
          background-image:
              var(--bg-hero-gradient),
              url(../images/icons/icon_mobile/hero-768-1-min.jpg);

@@ -1,5 +1,11 @@
 .footer {
     background-color: var(--fon-color);
+background-size: cover;
     padding-top: 60px;
     padding-bottom: 60px;
-}
+    margin: auto;
+
+
+@media (min-width: 768px) {
+        max-width: 1600px;        
+        }}

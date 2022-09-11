@@ -1,25 +1,72 @@
 .hero__title {
+    
+   
     color: var(--basic-color);
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+        font-size: 26px;
+        line-height: 42px;
+        letter-spacing: 0.06em;
     text-align: center;
-    margin-left: 252px;
-    margin-right: 252px;
-    margin-top: 0px;
-}
+    margin-right: 45px;
+    margin-left: 45px;
+    padding-top: 118px;
+    @media screen and (max-width: 479px) {
+        font-size: 24px;
+        }}
+
 .hero {
+   
+    height: 400px;
     background-color: var(--fon-color);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    /*background-image*/
-    background-image: linear-gradient(0deg, var(--background-image-gradient), var(--background-image-gradient)),
-        url(../images/hero-background-image.jpg);
+    background-image:
+    var(--bg-hero-gradient),
+    url(../images/hero-background-image.jpg);
+
+     background-size: cover;
 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1600px;
     margin: 0 auto;
-}
+
+    @media screen and (min-width: 319px) {
+        background-image:
+        var(--bg-hero-gradient),
+        url(../images/icons/icon_mobile/HeRo-480-1-min.jpg);
+    }  
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .hero {
+                background-image: url(../images/icons/icon_mobile/HeRo-480-2-min.jpg);
+    }}
+
+
+     @media screen and (min-width: 768px) {
+         background-image:
+             var(--bg-hero-gradient),
+             url(../images/icons/icon_mobile/HeRo-768-1-min.jpg);
+     }
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+             .hero {
+                background-image: url(../images/icons/icon_mobile/HeRo-768-2-min.jpg);
+    }}
+
+
+    @media screen and (min-width: 1200px) {
+        background-image:
+        var(--bg-hero-gradient),
+        url(../images/icons/icon_mobile/HeRo-1600-1-min.jpg);
+    }
+ 
+         @media (min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
+             .hero {
+                background-image: url(../images/icons/icon_mobile/HeRo-1600-2-min.jpg);
+     }}}
+        

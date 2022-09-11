@@ -1,15 +1,45 @@
 .button-projectcards {
-    justify-content: center;
-    display: flex;
+    //justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 50px;
+    justify-content:flex-start;
+    margin-bottom: 40px;
     padding: 0px;
+
+    @media screen and (min-width: 480px) {
+            display: flex;
+            justify-content: flex-start;
+            
+        }
+
+    @media screen and (min-width: 767px) {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-wrap: nowrap;
+           margin-left: auto;
+           margin-right: auto;
+        }
+    
+        @media screen and (min-width: 767px) {
+            height: 120px;
+            width: 354px;
+        }
+    
+        @media screen and (min-width: 1199px) {
+            height: 120px;
+            width: 270px;
+        }
 
     @extend %list
 }
-
+.button-projectcards__form {
+    margin-bottom: 21px;
+}
 .button-projectcards__form:not(:last-child) {
     margin-right: 8px;
+    
 }
 
 .button-projectcards__cards {
@@ -24,6 +54,7 @@
     padding-left: 22px;
     padding-right: 22px;
     height: 38px;
+        width: max-content;
     transition-property: color, box-shadow, background-color;
    @extend %transition;
     &:hover {

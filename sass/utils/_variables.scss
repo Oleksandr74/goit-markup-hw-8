@@ -10,7 +10,7 @@
     --background-team-color: #f5f4fa;
     --black-color: #000000;
     --link-color: #188ce8;
-    --icon-color: #afb1b8;
+    --icon-color: rgb(175, 177, 184);
     --border-color: #eeeeee;
     --border-form-field: rgba(33, 33, 33, 0.2);
     --background-image-gradient: rgba(47, 48, 58, 0.4);
@@ -24,10 +24,12 @@
     --box-shadow-color8: rgba(0, 0, 0, 0.16);
     --background-color-mission-foto: rgba(47, 48, 58, 0.8);
     --contact-footer-color: rgba(225, 225, 225, 0.6);
-    --icon-footer-link-background-color: rgba(255, 255, 255, 0.1);
-    --border-footer-form__input: rgba(255, 255, 255, 0.3);
+    --icon-footer-link-background-color: rgba(255, 255, 255, 0.102);
+    --border-footer-form__input: rgba(255, 255, 255, 0.302);
     --background-color-project-card: rgba(33, 150, 243, 0.9);
-    --color-form-field-input: rgba(117, 117, 117, 0.5);
+    --color-form-field-input: rgba(117, 117, 117, 0.502);
     --font-family-primary: 'Roboto', sans-serif;
     --font-family-logo: 'Raleway', sans-serif;
+    --bg-hero-gradient: linear-gradient(0deg, var(--background-image-gradient), var(--background-image-gradient));
+    --border-line: rgba(236, 236, 236, 1);
 }

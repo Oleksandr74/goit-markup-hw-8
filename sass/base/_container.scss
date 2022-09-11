@@ -1,9 +1,48 @@
 .container {
-    width: 1200px;
+    position: relative;
+    //width: 480px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
+   //border: 1px solid red;
+  
+    min-width: 320px;
+    @media screen and (min-width: 479px) {
+            width: 480px;
+        }
+
+@media screen and (min-width: 767px) {
+        width: 768px;
+    }
+    @media screen and (min-width: 1199px) {
+        width: 1200px;
+   
+    }
 }
+
+.container__header-hero {
+    position: relative;
+    //width: 480px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  //  border: 1px solid red;
+    min-width: 320px;
+
+    @media screen and (min-width: 479px) {
+        min-width: 480px;
+    }
+
+    @media screen and (min-width: 767px) {
+        min-width: 768px;
+    }
+
+    @media screen and (min-width: 1199px) {
+        min-width: 1200px;
+
+    }
+}
+
 
 
 .container__header {
@@ -12,14 +51,54 @@
     align-items: baseline;
 }
 .container--footer-flex {
-    width: 1200px;
+    //width: 480px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
+    @media screen and (min-width: 1199px) {
+            display: flex;
+            //gap: 70px;
+            justify-content: center;
+            height: auto;
+           
+        }
 
-    display: flex;
-    align-items: baseline;
+    //display: flex;
+    //align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
-.container--footer-logo {
-    margin-right: 70px;
+/*.container--footer-logo {
+    //margin-right: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+}*/
+.container__logo-icons {
+    @media screen and (min-width: 768px) {
+            display: flex;
+            gap: 165px;
+            justify-content: center;
+           height: auto;
+        }
+     @media screen and (min-width: 1199px) {
+                    gap: 70px; 
+        }
+}
+
+.container-form--icons {
+    //margin-right: 93px;
+    //margin-top: 12px;
+    margin-bottom: 60px;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+            margin-top: 8px;
+           
+ }
+}
+.container-form {
+@media screen and (min-width: 1199px) {
+        display: flex;
+        margin-left: 93px;
+        align-items: flex-end;
+    }
 }

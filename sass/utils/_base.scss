@@ -5,6 +5,12 @@ body {
     font-size: 14px;
     background-color: var(--basic-color);
 }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 a {
     text-decoration: none;
 }

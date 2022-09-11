@@ -1,17 +1,33 @@
-.section {
+/*.section {   --DTSKTOP--
     padding-top: 94px;
-    padding-bottom: 94px;
+    padding-bottom: 94px;}*/
+
+
+.section {
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .section--padding_top {
     padding-top: 0px;
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+        }
+    
+        @media screen and (min-width: 1200px) {
+           display: block;
+        }
 }
-.section--background {
+/*.section--background {
     background: var(--background-team-color);
     padding-top: 94px;
-    padding-bottom: 94px;
-}
+    padding-bottom: 94px;}*/
 
+.section--background {
+    background: var(--background-team-color);
+    padding-top: 60px;
+    padding-bottom: 60px;}
 
 .section__title {
     margin-bottom: 50px;

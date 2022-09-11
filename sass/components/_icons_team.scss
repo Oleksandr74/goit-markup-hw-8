@@ -13,19 +13,20 @@
     border-radius: 50%;
 @extend %position;
     display: flex;
+    fill: var(--icon-color);
     transition-property: fill, background-color;
 @extend %transition;
     &:hover,
     &:focus {
      background-color: var(--accent-color);
-}
-}
+}*
+
 .social__item {
     width: 20px;
     height: 20px;
     fill: var(--icon-color);
-
-    transition-property: fill;
+}
+   transition-property: fill;
  @extend %transition;
 
     &:hover,
@@ -39,5 +40,3 @@
 .social__link:focus .social__item {
     fill: var(--basic-color);
 }
-
-

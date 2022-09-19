@@ -22,6 +22,9 @@
     margin: 0px;
     margin-bottom: 10px;
     color: var(--brend-color);
+    @media screen and (min-width: 767px) {
+           display: flex;
+        }
 }
 
 /*.mission__title--size:not(:last-child) {

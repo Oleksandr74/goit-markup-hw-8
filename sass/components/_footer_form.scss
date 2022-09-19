@@ -1,9 +1,4 @@
 
-
-/*.container-form {
-    display: flex;
-   }*/
-
 .container-form--margin {
     //margin-top: 12px;
     //margin-top: 35px;
@@ -43,6 +38,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     margin-bottom: 0px;
+   
 }
 
 .footer-form__input {
@@ -97,6 +93,9 @@
 
 
     text-align: center;
+    @media screen and (min-width: 1199px) {
+            display: flex;
+        }
 }
 
 .footer-form__inner {

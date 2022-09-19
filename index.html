@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!--normalize-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css" 
+    <link 
+    type="text/css"
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css" 
     integrity="sha512-l0ofWk9slhBYzFo/8jFXBHNcPIZ4CekhhC4mtj9EZ47ed+Gdt4txfOF2+VAH/YdxFFf1ODtTuaGXZR6ygHsa7w==" 
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
 
     <!--fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <link type="text/css" rel="preconnect" href="https://fonts.googleapis.com" />
+    <link type="text/css" rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      type="text/css"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"/>
 
@@ -27,23 +30,25 @@
   <body>
 <!--HEADER-->
     <div class="page-header">
+
       <div class="container">
         <div class="nav-mob">
          <a class="logo" href="./index.html"
           >Web<span class="logo__header">Studio</span></a>
           <button 
               type="button"
-              class="menu-button is-open"
+              class="menu-button"
               data-menu-button
           >
             <svg width="40px" height="40px" aria-label="Перемикач моб меню" >
-              <use class="icon__cross-mob" href="./images/icons/icon_mobile/symbol-defs.svg#icon-close_cross"></use>
               <use class="icon__menu-mob" href="./images/icons/icon_mobile/symbol-defs.svg#icon-menu_zebra"></use>
+              <use class="icon__cross-mob" href="./images/icons/icon_mobile/symbol-defs.svg#icon-close_cross"></use>
+              
             </svg>
 
           </button> 
-          <div class="menu-container is-open" data-menu> 
 
+<div class="menu-container" data-menu> 
         <nav> 
         <ul class="nav">
           <li class="nav__item"><a class="nav__link--color nav__link--activ" href="#">Студия</a></li>
@@ -90,7 +95,9 @@
           </li>
         </ul>
 
-          </div>
+</div>
+
+
         </div>
        </div>
     </div>
@@ -101,7 +108,7 @@
       
       <section >
         <div  class="container__header-hero hero">
-          <h1 class="hero__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <h1 class="hero__title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
           <button class="button-hero" type="button" data-modal-open><p>Заказать услугу</p></button>
         </div>
       </section>

@@ -5,10 +5,11 @@
     padding-left: 15px;
     padding-right: 15px;
    //border: 1px solid red;
+
   
     min-width: 320px;
     @media screen and (min-width: 479px) {
-            width: 480px;
+            //width: 480px;
         }
 
 @media screen and (min-width: 767px) {
@@ -22,7 +23,10 @@
 
 .container__header-hero {
     position: relative;
+
+    background-image: var(--bg-hero-gradient);
     //width: 480px;
+    
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;

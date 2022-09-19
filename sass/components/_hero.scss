@@ -10,59 +10,61 @@
     padding-top: 118px;
     @media screen and (max-width: 479px) {
         font-size: 24px;
-        }}
+        padding-top: 80px;
+        }
+     @media screen and (min-width: 1199px) {
+        font-size: 44px;
+            line-height: 60px;
+            padding-top: 200px;
+     }
+    }
         
 .hero {
     max-width: 1600px;
     height: 400px;
-    background-color: var(--fon-color);
-    background-image:
+     background-image:
     var(--bg-hero-gradient),
-    url(../images/HeRO-background-image.jpg);
+    url(../images/icons/icon_mobile/HeRO-480-1-min.jpg);
 
-     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+     background-size: cover;
+  
     margin: 0 auto;
 
     @media screen and (min-width: 319px) {
-        background-image:
-       var(--bg-hero-gradient),
+       background-image:
+    var(--bg-hero-gradient),
         url(../images/icons/icon_mobile/HeRO-480-1-min.jpg);
-    }  
-    
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            /*.hero {
-                background-image: url(../images/icons/icon_mobile/HeRO-480-2-min.jpg);
-    }*/}
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+            
+                    background-image: var(--bg-hero-gradient), url(../images/icons/icon_mobile/HeRO-480-2-min.jpg);}}
+
+    @media screen and (min-width: 768px) {
          background-image:
-             (--bg-hero-gradient),
+           var(--bg-hero-gradient),
              url(../images/icons/icon_mobile/HeRO-768-1-min.jpg);
-     }
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+                     background-image: var(--bg-hero-gradient), url(../images/icons/icon_mobile/HeRO-768-2-min.jpg);}}
 
-        @media (min-device-pixel-ratio: 2),
-        (min-resolution: 192dpi),
-        (min-resolution: 2dppx) {
-            /* .hero {
-                background-image: url(../images/icons/icon_mobile/HeRO-768-2-min.jpg);
-    }*/}
-
+    
 
     @media screen and (min-width: 1200px) {
+        height: 600px;
         background-image:
         var(--bg-hero-gradient),
         url(../images/icons/icon_mobile/HeRO-1600-1-min.jpg);
-    }
- 
-         @media (min-device-pixel-ratio: 2),
-         (min-resolution: 192dpi),
-         (min-resolution: 2dppx) {
-           /*  .hero {
-                background-image: url(../images/icons/icon_mobile/HeRO-1600-2-min.jpg);
-     }*/}}
+
+        @media screen and (min-device-pixel-ratio: 2),
+            screen and (min-resolution: 192dpi),
+            screen and (min-resolution: 2dppx) {
+                     background-image: var(--bg-hero-gradient), url(../images/icons/icon_mobile/HeRO-1600-2-min.jpg);}}}
+
+
+       
         

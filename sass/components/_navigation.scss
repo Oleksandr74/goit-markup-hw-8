@@ -24,10 +24,17 @@
 .menu-button {
   z-index: 2;
   display: inline-flex;
+
+  /*фіксуєм кнопку навігації*/
+position: fixed;
+right: 21px;
+
+
   margin: 0px;
   padding: 0px;
   border: none;
   background-color: transparent;
+  //cursor: pointer;
   @media screen and (min-width: 767px) {
     display: none;
   }
@@ -61,8 +68,11 @@
   fill: var(--contact-active-color);
 }
 .menu-container {
-  
-  background-color: hsl(180, 18%, 73%);
+  display: flex;
+  align-items: center;
+  //background-color: hsl(180, 18%, 73%);
+  background: #FFFFFF;
+    
   padding-left: 40px;
   text-align: center;
   font-size: 20px;
@@ -78,7 +88,8 @@
     top: 0%;
     left: 0;
     width: 100%;
-
+    bottom: 0px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
 }
 .menu-container.is-open {
@@ -86,6 +97,7 @@
   //width: 480px;
   display: block;
   padding-bottom: 48px;
+  position: fixed;
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
@@ -168,7 +180,7 @@
    justify-content: center;
    align-items: center;
 margin: 0px;
-margin-left: auto;
+margin-left: 84px;
 
   }
 }

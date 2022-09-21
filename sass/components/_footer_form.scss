@@ -63,7 +63,7 @@
     border-color: var(--link-color);
     }
     @media screen and (min-width: 319px) and (max-width: 478px) {
-        width: auto;
+        width: 100%;
         }
 
 }
@@ -115,4 +115,10 @@
 .footer-form__button--form {
 @extend %flex;
     gap: 10px;
+}
+.form {
+    @media screen and (max-width: 1199px) {
+            padding-left: 0px;
+        }
+    //padding-left: 93px;
 }

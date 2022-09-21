@@ -10,7 +10,30 @@
     text-decoration: none;
     display: flex;
     justify-content: center;
+    @media screen and (min-width: 1200px) {
+            justify-content: flex-start;
+            padding-bottom: 20px;
+        }
+          @media screen and (min-width: 768px) {
+              padding-bottom: 20px;;
+          }
 }
+.logo-main {
+    font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: 24px;
+    /*font-size: 26px;*/
+    line-height: 1.38;
+    /* line-height: 1.18;*/
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
 .logo__footer {
     color: var(--basic-color);
 }

@@ -1,9 +1,15 @@
 /*CHECKBOX*/
+
+
+
 .checkbox__lable {
 display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     font-size: 12px;
+    @media screen and (max-width: 479px) {
+      flex-wrap: wrap;     
+    }
 }
 .checkbox__lable .checkbox__icon-link {
     border: 2px solid var(--brand-color);
@@ -37,6 +43,10 @@ display: flex;
     color: var(--link-color);
     margin-left: 2px; 
     font-size: 12px;
+@media screen and (max-width: 479px) {
+        margin-left: -85px;
+    }
+
 &::after {
     color: var(--link-color);
     display: block;

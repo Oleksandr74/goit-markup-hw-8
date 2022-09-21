@@ -9,8 +9,7 @@ display: flex;
     font-size: 12px;
     @media screen and (max-width: 479px) {
       flex-wrap: wrap;     
-    }
-}
+    }}
 .checkbox__lable .checkbox__icon-link {
     border: 2px solid var(--brand-color);
     border-radius: 2px;
@@ -53,6 +52,5 @@ display: flex;
     content: '';
     height: 1px;
     background: var(--link-color);
-}
-}
+}}
 /*CHECKBOX-END*/

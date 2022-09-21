@@ -90,13 +90,10 @@
     letter-spacing: 0.03em;
     color: var(--basic-color);
     margin-bottom: 20px;
-
-
-    text-align: center;
+     text-align: center;
     @media screen and (min-width: 1199px) {
             display: flex;
-        }
-}
+        }}
 
 .footer-form__inner {
     position: relative;

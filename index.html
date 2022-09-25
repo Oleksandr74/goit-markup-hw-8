@@ -46,7 +46,9 @@
               
             </svg>
 
-          </button> 
+          </button>
+
+
 
 <div class="menu-container" data-menu> 
         <nav> 
@@ -77,7 +79,9 @@
                 info@devstudio.com
                 </a>
               </li>   
-        </ul>  
+        </ul> 
+
+
 
         <ul class="nav-social">
       <li class="nav-social__item">
@@ -227,7 +231,7 @@
                    <source
                   srcset="./images/icons/icon_mobile/igor-450-1-min.jpg 1x,
                   ./images/icons/icon_mobile/igor-450-2-min.jpg 2x"
-                  media="(min-width: 480px)"
+                  media="(max-width: 767px)"
                   />
                   <img src="./images/photo_ID.jpg" 
                   alt="Product Designer" 
@@ -302,7 +306,7 @@
                    <source
                   srcset="./images/icons/icon_mobile/olga-450-1-min.jpg 1x,
                   ./images/icons/icon_mobile/olga-450-2-min.jpg 2x"
-                  media="(min-width: 480px)"
+                  media="(max-width: 767px)"
                   />
                   <img src="./images/photo_OP.jpg" 
                   alt="Frontend Developer" 
@@ -373,7 +377,7 @@
                    <source
                   srcset="./images/icons/icon_mobile/mic-450-1-min.jpg 1x,
                   ./images/icons/icon_mobile/mic-450-2-min.jpg 2x"
-                  media="(min-width: 480px)"
+                  media="(max-width: 767px)"
                   />
                   <img src="./images/photo_NT.jpg"
                   alt="Marketing" 
@@ -443,7 +447,7 @@
                    <source
                   srcset="./images/icons/icon_mobile/michael-450-1-min.jpg 1x,
                   ./images/icons/icon_mobile/michael-450-2-min.jpg 2x"
-                  media="(min-width: 480px)"
+                  media="(max-width: 767px)"
                   />
                   <img src="./images/photo_ME.jpg"
                   alt="UI Designer"
@@ -742,8 +746,24 @@ class="checkbox__input visually-hidden"
 value="tru"/> 
 
 
+<div class="checkbox-minimob">
+<label for="checkbox" class="checkbox__lable">
+  <span class="checkbox__icon-link">
+    <svg class="checkbox__icon">
+      <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-check_vector_o" width="16" height="15">
+      </use>
+    </svg>
+  </span>
+
+  <ul class="list checkbox-mob320">
+  <li>Соглашаюсь с рассылкой и принимаю</li>
+  <li><a class="checkbox__contract" href="">Условия договора</a></li>
+  </ul>
+ </label>
+</div>
 
 
+<div class="checkbox-mob">
 <label for="checkbox" class="checkbox__lable">
   <span class="checkbox__icon-link">
     <svg class="checkbox__icon">
@@ -752,8 +772,8 @@ value="tru"/>
     </svg>
   </span>Соглашаюсь с рассылкой и принимаю
   <a class="checkbox__contract" href="">Условия договора</a>
- </label> 
-
+ </label>
+</div>
 
 
 

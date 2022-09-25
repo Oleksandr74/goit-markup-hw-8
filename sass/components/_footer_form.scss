@@ -89,7 +89,8 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     color: var(--basic-color);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
      text-align: center;
     @media screen and (min-width: 1199px) {
             display: flex;
@@ -97,6 +98,9 @@
 
 .footer-form__inner {
     position: relative;
+    @media screen and (min-width: 319px) and (max-width: 478px) {
+            width: 100%;
+        }
 &:focus-within>.icons-field-size {
     fill: var(--link-color);
 }

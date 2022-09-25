@@ -1,22 +1,19 @@
 .container {
     position: relative;
-    //width: 480px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
-   //border: 1px solid red;
-
-  
-    min-width: 320px;
-    @media screen and (min-width: 479px) {
-            //width: 480px;
+     min-width: 100%;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+            min-width: 100%;
         }
 
-@media screen and (min-width: 767px) {
-        width: 768px;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+        min-width: 768px;
     }
-    @media screen and (min-width: 1199px) {
-        width: 1200px;
+    @media screen and (min-width: 1200px) {
+        min-width: 1200px;
+       
    }}
 
 .container__header-hero {
@@ -47,13 +44,11 @@
     align-items: baseline;
 }
 .container--footer-flex {
-    //width: 480px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
     @media screen and (min-width: 1199px) {
             display: flex;
-            //gap: 70px;
             justify-content: center;
             height: auto;
            width: 1200px;
@@ -70,25 +65,20 @@
             justify-content: center;
            height: auto;
             @media screen and (min-width: 768px) and (max-width:1199px) {
-                 padding-bottom: 60px;  
+                 margin-bottom: 60px;  
                 }
            
         }
      @media screen and (min-width: 1199px) {
                     gap: 70px; 
-                    padding-right: 93px;
+                    margin-right: auto;
         }
 }
 
 .container-form--icons {
-    margin-bottom: 0px;
-    @media screen and (max-width: 767px) {
-            padding-bottom: 60px;
-        }
-    @media screen and (min-width: 768px) and (max-width: 1199px) {
+     @media screen and (min-width: 768px) and (max-width: 1199px) {
             margin-top: 8px;
-           
- }
+        }
 }
 .container-form {
 @media screen and (min-width: 1199px) {
@@ -96,4 +86,17 @@
         //margin-left: 93px;
         align-items: flex-end;
     }
+}
+.container__logo-icons {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+
+}
+
+.container--footer-logo {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+
 }

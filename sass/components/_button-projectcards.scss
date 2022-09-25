@@ -1,42 +1,46 @@
+/*.container__button {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    height: 38px;
+}*/
+
 .button-projectcards {
-    //justify-content: center;
+    
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content:flex-start;
-    margin-bottom: 40px;
     padding: 0px;
 
-    @media screen and (min-width: 480px) {
-            display: flex;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+            display: inline-flex;
             justify-content: flex-start;
-            
+            margin-bottom: 40px;
+            width: 400px;
+            margin-left: calc((100% - 448px)/2);
+            }
+        
+
+       @media screen and (min-width: 768px) and (max-width: 1200px) {
+           display: flex;
+        margin-bottom: 30px;
+           justify-content: center;
+         
         }
 
-    @media screen and (min-width: 767px) {
-           display: flex;
-           align-items: center;
+        @media screen and (min-width: 1200px) {
+        display: flex;
+           margin-bottom: 50px;
            justify-content: center;
-           flex-wrap: nowrap;
-           margin-left: auto;
-           margin-right: auto;
-        }
-    
-        @media screen and (min-width: 767px) {
-            height: 120px;
-            width: 354px;
-        }
-    
-        @media screen and (min-width: 1199px) {
-            height: 120px;
-            width: 270px;
         }
 
     @extend %list
-}
+    }
+
 .button-projectcards__form {
-    margin-bottom: 21px;
+    margin-bottom: 15px;
 }
+
 .button-projectcards__form:not(:last-child) {
     margin-right: 8px;
     

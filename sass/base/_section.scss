@@ -6,6 +6,9 @@
 .section {
     padding-top: 60px;
     padding-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+            padding-top: 94px;
+        }
 }
 
 .section--padding_top {
@@ -33,9 +36,14 @@
     margin-bottom: 50px;
     text-align: center;
     font-style: normal;
-    font-size: 36px;
+    font-size: 28px;
+        line-height: 33px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color);
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+            line-height: 42px;
+    }
 }

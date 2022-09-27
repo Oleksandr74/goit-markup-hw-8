@@ -2,23 +2,26 @@
     display: flex;
     justify-content: center;
    flex-wrap: wrap;
-   //justify-content: space-between;
     padding: 0;
-    gap: 25px;
+    gap: 30px;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+            width: 768px;
+            margin-right: auto;
+            margin-left: auto;
+        }
     
 }
  .our-project__card-form {
     display: inline-flex;
         justify-content: center;
-   //height: 404px;
         width: 450px; 
 margin-left: 0px;
 //margin-right: auto;
 border: 1px solid #EEEEEE;
 
     @media screen and (min-width: 767px) {
-        //height: 440px;
         width: 354px;
+    
     }
 
     @media screen and (min-width: 1199px) {
@@ -27,13 +30,13 @@ border: 1px solid #EEEEEE;
     }
 }
 
+
+
 .our-project__card {
 
 position: relative;
 
     background: var(--basic-color);
-    //border: 1px solid red; 
-   // width: 370px;
     transition-property: box-shadow;
     @extend %transition;
 &:hover {
@@ -122,4 +125,10 @@ position: relative;
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--letter-color);
+}
+
+.our-project__9 {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+       margin-right: 386px; 
+    } 
 }

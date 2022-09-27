@@ -70,15 +70,8 @@ display: flex;
 .checkbox-mob320 {
     display: inline-block;
     margin-left: 10px;
-}
+@media screen and (min-width: 480px) {
+        display: flex;
+            margin-left: 0px;
+    }}
 
-.checkbox-minimob {
-    @media screen and (min-width: 480px) {
-            display: none;
-        }}
-
-.checkbox-mob {
-    @media screen and (max-width: 479px) {
-        display: none;
-    }
-}

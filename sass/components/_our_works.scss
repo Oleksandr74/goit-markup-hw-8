@@ -30,7 +30,7 @@
 
 .photo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -38,3 +38,8 @@
         margin: 0;
 }
 
+
+
+.photo-box:not(:last-child) {
+    margin-right: 30px;
+}

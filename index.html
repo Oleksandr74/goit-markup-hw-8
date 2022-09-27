@@ -169,7 +169,7 @@
         <div class="container">
         <h2 class="section__title">Чем мы занимаемся</h2>
         <ul class="photo">
-          <li>
+          <li class="photo-box">
             <div class="box">
             <img
             srcset="./images/icons/icon_mobile/work1-370-1-min.jpg 1x,
@@ -181,7 +181,7 @@
             <p class="photo__title">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
             </div>
           </li>
-          <li>
+          <li class="photo-box">
             <div class="box">
             <img
              srcset="./images/icons/icon_mobile/work2-370-1-min.jpg 1x,
@@ -193,7 +193,7 @@
             <p class="photo__title">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
             </div>
           </li>
-          <li>
+          <li class="photo-box">
             <div class="box">
             <img
              srcset="./images/icons/icon_mobile/work3-370-1-min.jpg 1x,
@@ -737,7 +737,7 @@
                     name="user-com" placeholder="Введите текст"></textarea>
                 </label>
 
-
+<div class="checkbox-minimob">
 <input 
 type="checkbox" 
 id="checkbox" 
@@ -745,8 +745,6 @@ name="checkbox"
 class="checkbox__input visually-hidden" 
 value="tru"/> 
 
-
-<div class="checkbox-minimob">
 <label for="checkbox" class="checkbox__lable">
   <span class="checkbox__icon-link">
     <svg class="checkbox__icon">
@@ -759,22 +757,9 @@ value="tru"/>
   <li>Соглашаюсь с рассылкой и принимаю</li>
   <li><a class="checkbox__contract" href="">Условия договора</a></li>
   </ul>
+
  </label>
 </div>
-
-
-<div class="checkbox-mob">
-<label for="checkbox" class="checkbox__lable">
-  <span class="checkbox__icon-link">
-    <svg class="checkbox__icon">
-      <use href="./images/icons/icons_checkbox/sprite_checkbox.svg#icon-check_vector_o" width="16" height="15">
-      </use>
-    </svg>
-  </span>Соглашаюсь с рассылкой и принимаю
-  <a class="checkbox__contract" href="">Условия договора</a>
- </label>
-</div>
-
 
 
     <button class="form__field--button" type="submit">

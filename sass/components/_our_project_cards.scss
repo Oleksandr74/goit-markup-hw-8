@@ -8,15 +8,13 @@
             width: 768px;
             margin-right: auto;
             margin-left: auto;
-        }
-    
-}
+        }}
+
  .our-project__card-form {
     display: inline-flex;
-        justify-content: center;
-        width: 450px; 
-margin-left: 0px;
-//margin-right: auto;
+    justify-content: center;
+    width: 450px; 
+    margin-left: 0px;
 border: 1px solid #EEEEEE;
 
     @media screen and (min-width: 767px) {

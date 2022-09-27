@@ -31,15 +31,10 @@
         }
 }
 
-/*.mission__title--size:not(:last-child) {
-    margin-right: 31px;
-}*/
 .mission__title--size::before {
     display: inline-flex;
     flex-wrap: wrap;
     content: '';
-    //height: 120px;
-    //width: 319px;
     background-position: center;
     background-color: var(--background-team-color);
     margin-bottom: 30px;

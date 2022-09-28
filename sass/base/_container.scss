@@ -72,31 +72,23 @@
      @media screen and (min-width: 1199px) {
                     gap: 70px; 
                     margin-right: auto;
-        }
-}
+        }}
 
 .container-form--icons {
-     @media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
             margin-top: 8px;
-        }
-}
+    }}
 .container-form {
 @media screen and (min-width: 1199px) {
         display: flex;
-        //margin-left: 93px;
         align-items: flex-end;
-    }
-}
+    }}
 .container__logo-icons {
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
         margin-bottom: 60px;
-    }
-
-}
+    }}
 
 .container--footer-logo {
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
         margin-bottom: 60px;
-    }
-
-}
+    }}

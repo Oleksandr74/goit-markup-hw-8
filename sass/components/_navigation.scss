@@ -36,7 +36,6 @@ flex-wrap: wrap;
   z-index: 2;
   display: inline-flex;
 
-
   /*фіксуєм кнопку навігації*/
 //position: fixed;
 right: 21px;
@@ -90,11 +89,9 @@ right: 21px;
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 88px;
+  }
   
-    }
-  
-
-  @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     padding-left: 40px;
     display: none;
     position: absolute;

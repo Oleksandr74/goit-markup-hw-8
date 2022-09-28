@@ -8,9 +8,15 @@
 
 .page-header {
   //position: relative;
-  border: 1px solid var(--border-line);
+  border-bottom: 1px solid var(--border-line);
 display: flex;
 flex-wrap: wrap;
+
+@media screen and (min-width: 1200px) {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 .nav-mob {
   display: flex;
